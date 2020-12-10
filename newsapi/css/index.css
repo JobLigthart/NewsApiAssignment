@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI';
+}
+
+.container-fluid {
+ margin: 0;
+ padding: 0;
+}
+
+.row {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-column {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    order: 2;
+    width: 500px;
+    padding-left: 3%;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-column {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    order: 1;
+    max-width: 50%;
+}
