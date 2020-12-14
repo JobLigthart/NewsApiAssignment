@@ -13,7 +13,7 @@ function retrieve(e) {
     let topic = input.value;
     console.log(topic)
 
-    let url = `http://newsapi.org/v2/everything?q=${topic}&from=2020-11-10&sortBy=publishedAt&apiKey=${apiKey}`
+    let url = `http://newsapi.org/v2/everything?q=${topic}&from=2020-11-14&sortBy=publishedAt&apiKey=${apiKey}`
 
     fetch(url).then((res)=>{
         return res.json()
